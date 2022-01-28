@@ -1,0 +1,20 @@
+{
+  "name": "new-api-cm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "axios": "^0.25.0",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "koa-send": "^5.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
